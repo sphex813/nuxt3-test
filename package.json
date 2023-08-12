@@ -12,5 +12,15 @@
     "@nuxt/devtools": "latest",
     "@types/node": "^18.16.19",
     "nuxt": "^3.6.3"
+  },
+  "overrides": {
+    "h3": "1.8.0-rc.3",
+    "nitropack": "npm:nitropack-edge@latest"
+  },
+  "dependencies": {
+    "@auth/core": "^0.10.4",
+    "@hebilicious/authjs-nuxt": "^0.3.0-beta.2",
+    "h3": "1.8.0-rc.3", 
+    "nitropack": "npm:nitropack-edge@latest"
   }
 }

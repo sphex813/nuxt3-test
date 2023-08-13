@@ -1,4 +1,3 @@
-import GithubProvider from "@auth/core/providers/github"
 import type { AuthConfig } from "@auth/core/types"
 import { NuxtAuthHandler } from "#auth"
 

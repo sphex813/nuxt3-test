@@ -18,9 +18,13 @@
     "nitropack": "npm:nitropack-edge@latest"
   },
   "dependencies": {
-    "@auth/core": "^0.10.4",
-    "@hebilicious/authjs-nuxt": "^0.3.0-beta.2",
-    "h3": "1.8.0-rc.3", 
+    "@auth/core": "0.9.0",
+    "h3": "1.8.0-rc.3",
+    "nitropack": "npm:nitropack-edge@latest",
+    "@hebilicious/authjs-nuxt": "0.3.0-beta.2"
+  },
+  "resolutions": {
+    "h3": "1.8.0-rc.3",
     "nitropack": "npm:nitropack-edge@latest"
   }
 }
